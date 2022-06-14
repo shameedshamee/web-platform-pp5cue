@@ -1,0 +1,57 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>
+      <mark> Let's do some MATH! </mark>
+    </h1>
+    <!-- <a href="/me.html">My other page</a> -->
+    <div class="parent">
+    <form name="form">
+      <div class="box">
+        
+      <input type="text" class="screen" maxlength="20"  placeholder="0" name="displayResult" />
+
+        <div class="column">
+      
+          <input type="button" class="button" name="clear" value="C" onClick="Clear()">
+          <input type="button" class="button" name="BACK" value="back" onClick="Delete()">
+          <input type="button" class="button" name="modb" value="%" onClick="calcNumbers(modb.value)">
+          <input type="button" class="button" name="divbutton" value="/" onClick="calcNumbers(divbutton.value)">
+        </div>
+
+        <div class="column">
+          <input type="button" class="button" name="b7" value="7" onClick="calcNumbers(b7.value)">
+          <input type="button" class="button" name="b8" value="8" onClick="calcNumbers(b8.value)">
+          <input type="button" class="button" name="b9" value="9" onClick="calcNumbers(b9.value)">
+          <input type="button" class="button" name="mulbutton" value="x" onClick="calcMult(mulbutton.value)">
+        </div> 
+
+        <div class="column">
+          <input type="button" class="button" name="b4" value="4" onClick="calcNumbers(b4.value)">
+          <input type="button" class="button" name="b5" value="5" onClick="calcNumbers(b5.value)">
+          <input type="button" class="button" name="b6" value="6" onClick="calcNumbers(b6.value)">
+          <input type="button" class="button" name="subbutton" value="-" onClick="calcNumbers(subbutton.value)">
+        </div>
+
+        <div class="column">
+        <input type="button" class="button" name="b1" value="1" onClick="calcNumbers(b1.value)">
+        <input type="button" class="button" name="b2" value="2" onClick="calcNumbers(b2.value)">
+        <input type="button" class="button" name="b3" value="3" onClick="calcNumbers(b3.value)">
+        <input type="button" class="button" name="addbutton" value="+" onClick="calcNumbers(addbutton.value)">
+        </div>
+
+        <div class="column">
+        <input type="button" class="button" >
+          <input type="button" class="button" name="b0" value="0" onClick="calcNumbers(b0.value)">
+          <input type="button" class="button" name="bdot" value="." onClick="calcNumbers(bdot.value)">
+          <input type="button" class="button" value="=" onClick="displayResult.value=eval(displayResult.value)">
+        </div>
+      </div>
+    </form>
+    </div>
+  </body>
+</html>

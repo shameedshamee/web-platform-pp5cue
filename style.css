@@ -1,0 +1,70 @@
+body {
+  background: rgba(14, 13, 13, 0.562);
+  background-image: url(https://media.istockphoto.com/vectors/math-vector-id525917055);
+}
+
+mark {
+  background-color: aliceblue;
+  padding: 15px;
+  border-radius: 50px;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  font-style: oblique;
+  text-align: center;
+  padding-top: 50px;
+  font-family: 'Lucida Sans';
+}
+
+.parent {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.box {
+  background: white;
+  width: 255px;
+  height: 365px;
+  border: 5px outset rgba(165, 159, 159, 0.911);
+  text-align: center;
+  padding: 10px;
+  margin: 90px;
+  border-radius: 14px;
+}
+
+.screen {
+  border: 2px outset rgba(165, 159, 159, 0.911);
+  background: fixed rgb(212, 202, 202);
+  text-align: end;
+  width: 245px;
+  height: 50px;
+  padding-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 6px;
+  margin-left: 6px;
+  margin-right: 6px;
+  border-radius: 4px;
+  font-size: larger;
+}
+
+.column {
+  margin-top: 3px;
+  display: flex;
+}
+.button {
+  background: rgb(134, 139, 134);
+  border: 2px outset rgba(165, 159, 159, 0.911);
+  width: 60px;
+  height: 55px;
+  padding: 1px;
+  margin: 1px;
+  margin-left: 5px;
+  border-radius: 4px;
+  font-size: large;
+}
+
+.button:active {
+  background: rgb(104, 109, 83);
+}
